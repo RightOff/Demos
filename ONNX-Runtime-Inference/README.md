@@ -72,3 +72,8 @@ Minimum Inference Latency: 0.98 ms
 ## References
 
 * [ONNX Runtime C++ Inference](https://leimao.github.io/blog/ONNX-Runtime-CPP-Inference/)
+
+## models
+
+脸部分析和换脸模型下载可参考facefusion项目代码face_analyser.py和face_swapper.py
+* [facefusion](https://github.com/facefusion/facefusion/tree/master)
