@@ -2,7 +2,7 @@
 
 ## Introduction
 
-ONNX Runtime C++ inference example for image classification using CPU and CUDA.
+(clh)ONNX Runtime C++ inference example for image classification using CPU and CUDA.
 
 ## Dependencies
 
