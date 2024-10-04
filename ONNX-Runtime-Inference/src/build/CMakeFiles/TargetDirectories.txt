@@ -1,3 +1,0 @@
-/root/clh/Demos/ONNX-Runtime-Inference/src/build/CMakeFiles/inference.dir
-/root/clh/Demos/ONNX-Runtime-Inference/src/build/CMakeFiles/edit_cache.dir
-/root/clh/Demos/ONNX-Runtime-Inference/src/build/CMakeFiles/rebuild_cache.dir
