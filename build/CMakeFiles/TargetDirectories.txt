@@ -1,0 +1,15 @@
+/home/clh/workspace/cppcode/test/build/CMakeFiles/define_test.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/enum_test.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/pragma_pack_test.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/selectBall.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/three_thread.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/produceBall.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/async_test.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/circleReference.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/smart_ptr.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/array_test.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/tuple_test.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/vector_test.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/template_test.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/edit_cache.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/rebuild_cache.dir

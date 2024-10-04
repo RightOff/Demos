@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/template_test.dir/template_test.cpp.o -o template_test

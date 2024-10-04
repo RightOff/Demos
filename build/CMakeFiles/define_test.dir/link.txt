@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/define_test.dir/define_test.cpp.o -o define_test

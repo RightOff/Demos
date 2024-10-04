@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/point_test.dir/point_test.cpp.o -o point_test

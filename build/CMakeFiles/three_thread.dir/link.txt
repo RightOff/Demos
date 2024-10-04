@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/three_thread.dir/three_thread.cpp.o -o three_thread  -lpthread

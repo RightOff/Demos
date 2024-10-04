@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/async_test.dir/async_test.cpp.o -o async_test  -lpthread
