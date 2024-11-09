@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/pointer_test.dir/pointer_test.cpp.o -o pointer_test

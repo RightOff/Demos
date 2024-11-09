@@ -19,6 +19,7 @@ add_executable(tuple_test tuple_test.cpp)
 add_executable(vector_test vector_test.cpp)
 add_executable(template_test template_test.cpp)
 add_executable(function function.cpp)
+add_executable(pointer_test pointer_test.cpp)
 
 
 find_package(Threads REQUIRED)

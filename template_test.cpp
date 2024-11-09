@@ -31,7 +31,7 @@ class B : public A{
 
 };
 
-int main(){
+int main(){ 
 
     Add<A,B> a;
     Add<B,A> b;

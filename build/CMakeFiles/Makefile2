@@ -76,6 +76,8 @@ all: CMakeFiles/array_test.dir/all
 all: CMakeFiles/tuple_test.dir/all
 all: CMakeFiles/vector_test.dir/all
 all: CMakeFiles/template_test.dir/all
+all: CMakeFiles/function.dir/all
+all: CMakeFiles/pointer_test.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -96,6 +98,8 @@ clean: CMakeFiles/array_test.dir/clean
 clean: CMakeFiles/tuple_test.dir/clean
 clean: CMakeFiles/vector_test.dir/clean
 clean: CMakeFiles/template_test.dir/clean
+clean: CMakeFiles/function.dir/clean
+clean: CMakeFiles/pointer_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -157,7 +161,7 @@ CMakeFiles/enum_test.dir/clean:
 CMakeFiles/pragma_pack_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pragma_pack_test.dir/build.make CMakeFiles/pragma_pack_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pragma_pack_test.dir/build.make CMakeFiles/pragma_pack_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=11,12 "Built target pragma_pack_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=15,16 "Built target pragma_pack_test"
 .PHONY : CMakeFiles/pragma_pack_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,7 +187,7 @@ CMakeFiles/pragma_pack_test.dir/clean:
 CMakeFiles/selectBall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/selectBall.dir/build.make CMakeFiles/selectBall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/selectBall.dir/build.make CMakeFiles/selectBall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=15,16 "Built target selectBall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=19,20 "Built target selectBall"
 .PHONY : CMakeFiles/selectBall.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,7 +213,7 @@ CMakeFiles/selectBall.dir/clean:
 CMakeFiles/three_thread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/three_thread.dir/build.make CMakeFiles/three_thread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/three_thread.dir/build.make CMakeFiles/three_thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=21,22 "Built target three_thread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=25,26 "Built target three_thread"
 .PHONY : CMakeFiles/three_thread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -235,7 +239,7 @@ CMakeFiles/three_thread.dir/clean:
 CMakeFiles/produceBall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/produceBall.dir/build.make CMakeFiles/produceBall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/produceBall.dir/build.make CMakeFiles/produceBall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=13,14 "Built target produceBall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=17,18 "Built target produceBall"
 .PHONY : CMakeFiles/produceBall.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,7 +317,7 @@ CMakeFiles/circleReference.dir/clean:
 CMakeFiles/smart_ptr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_ptr.dir/build.make CMakeFiles/smart_ptr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_ptr.dir/build.make CMakeFiles/smart_ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=17,18 "Built target smart_ptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=21,22 "Built target smart_ptr"
 .PHONY : CMakeFiles/smart_ptr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +369,7 @@ CMakeFiles/array_test.dir/clean:
 CMakeFiles/tuple_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuple_test.dir/build.make CMakeFiles/tuple_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuple_test.dir/build.make CMakeFiles/tuple_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=23,24 "Built target tuple_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=27,28 "Built target tuple_test"
 .PHONY : CMakeFiles/tuple_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +395,7 @@ CMakeFiles/tuple_test.dir/clean:
 CMakeFiles/vector_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=25,26 "Built target vector_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=29,30 "Built target vector_test"
 .PHONY : CMakeFiles/vector_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -417,7 +421,7 @@ CMakeFiles/vector_test.dir/clean:
 CMakeFiles/template_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_test.dir/build.make CMakeFiles/template_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_test.dir/build.make CMakeFiles/template_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=19,20 "Built target template_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=23,24 "Built target template_test"
 .PHONY : CMakeFiles/template_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -435,6 +439,58 @@ template_test: CMakeFiles/template_test.dir/rule
 CMakeFiles/template_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_test.dir/build.make CMakeFiles/template_test.dir/clean
 .PHONY : CMakeFiles/template_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/function.dir
+
+# All Build rule for target.
+CMakeFiles/function.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function.dir/build.make CMakeFiles/function.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function.dir/build.make CMakeFiles/function.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=11,12 "Built target function"
+.PHONY : CMakeFiles/function.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/function.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clh/workspace/cppcode/test/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/function.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clh/workspace/cppcode/test/build/CMakeFiles 0
+.PHONY : CMakeFiles/function.dir/rule
+
+# Convenience name for target.
+function: CMakeFiles/function.dir/rule
+.PHONY : function
+
+# clean rule for target.
+CMakeFiles/function.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function.dir/build.make CMakeFiles/function.dir/clean
+.PHONY : CMakeFiles/function.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointer_test.dir
+
+# All Build rule for target.
+CMakeFiles/pointer_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer_test.dir/build.make CMakeFiles/pointer_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer_test.dir/build.make CMakeFiles/pointer_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/clh/workspace/cppcode/test/build/CMakeFiles --progress-num=13,14 "Built target pointer_test"
+.PHONY : CMakeFiles/pointer_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clh/workspace/cppcode/test/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointer_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clh/workspace/cppcode/test/build/CMakeFiles 0
+.PHONY : CMakeFiles/pointer_test.dir/rule
+
+# Convenience name for target.
+pointer_test: CMakeFiles/pointer_test.dir/rule
+.PHONY : pointer_test
+
+# clean rule for target.
+CMakeFiles/pointer_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer_test.dir/build.make CMakeFiles/pointer_test.dir/clean
+.PHONY : CMakeFiles/pointer_test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

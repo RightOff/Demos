@@ -285,6 +285,32 @@ template_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_test.dir/build.make CMakeFiles/template_test.dir/build
 .PHONY : template_test/fast
 
+#=============================================================================
+# Target rules for targets named function
+
+# Build rule for target.
+function: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 function
+.PHONY : function
+
+# fast build rule for target.
+function/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function.dir/build.make CMakeFiles/function.dir/build
+.PHONY : function/fast
+
+#=============================================================================
+# Target rules for targets named pointer_test
+
+# Build rule for target.
+pointer_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointer_test
+.PHONY : pointer_test
+
+# fast build rule for target.
+pointer_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer_test.dir/build.make CMakeFiles/pointer_test.dir/build
+.PHONY : pointer_test/fast
+
 array_test.o: array_test.cpp.o
 .PHONY : array_test.o
 
@@ -404,6 +430,54 @@ enum_test.s: enum_test.cpp.s
 enum_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum_test.dir/build.make CMakeFiles/enum_test.dir/enum_test.cpp.s
 .PHONY : enum_test.cpp.s
+
+function.o: function.cpp.o
+.PHONY : function.o
+
+# target to build an object file
+function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function.dir/build.make CMakeFiles/function.dir/function.cpp.o
+.PHONY : function.cpp.o
+
+function.i: function.cpp.i
+.PHONY : function.i
+
+# target to preprocess a source file
+function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function.dir/build.make CMakeFiles/function.dir/function.cpp.i
+.PHONY : function.cpp.i
+
+function.s: function.cpp.s
+.PHONY : function.s
+
+# target to generate assembly for a file
+function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/function.dir/build.make CMakeFiles/function.dir/function.cpp.s
+.PHONY : function.cpp.s
+
+pointer_test.o: pointer_test.cpp.o
+.PHONY : pointer_test.o
+
+# target to build an object file
+pointer_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer_test.dir/build.make CMakeFiles/pointer_test.dir/pointer_test.cpp.o
+.PHONY : pointer_test.cpp.o
+
+pointer_test.i: pointer_test.cpp.i
+.PHONY : pointer_test.i
+
+# target to preprocess a source file
+pointer_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer_test.dir/build.make CMakeFiles/pointer_test.dir/pointer_test.cpp.i
+.PHONY : pointer_test.cpp.i
+
+pointer_test.s: pointer_test.cpp.s
+.PHONY : pointer_test.s
+
+# target to generate assembly for a file
+pointer_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer_test.dir/build.make CMakeFiles/pointer_test.dir/pointer_test.cpp.s
+.PHONY : pointer_test.cpp.s
 
 pragma_pack_test.o: pragma_pack_test.cpp.o
 .PHONY : pragma_pack_test.o
@@ -610,6 +684,8 @@ help:
 	@echo "... circleReference"
 	@echo "... define_test"
 	@echo "... enum_test"
+	@echo "... function"
+	@echo "... pointer_test"
 	@echo "... pragma_pack_test"
 	@echo "... produceBall"
 	@echo "... selectBall"
@@ -633,6 +709,12 @@ help:
 	@echo "... enum_test.o"
 	@echo "... enum_test.i"
 	@echo "... enum_test.s"
+	@echo "... function.o"
+	@echo "... function.i"
+	@echo "... function.s"
+	@echo "... pointer_test.o"
+	@echo "... pointer_test.i"
+	@echo "... pointer_test.s"
 	@echo "... pragma_pack_test.o"
 	@echo "... pragma_pack_test.i"
 	@echo "... pragma_pack_test.s"

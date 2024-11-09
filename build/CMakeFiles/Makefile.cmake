@@ -60,4 +60,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tuple_test.dir/DependInfo.cmake"
   "CMakeFiles/vector_test.dir/DependInfo.cmake"
   "CMakeFiles/template_test.dir/DependInfo.cmake"
+  "CMakeFiles/function.dir/DependInfo.cmake"
+  "CMakeFiles/pointer_test.dir/DependInfo.cmake"
   )

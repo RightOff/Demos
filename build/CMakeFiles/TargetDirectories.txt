@@ -11,5 +11,7 @@
 /home/clh/workspace/cppcode/test/build/CMakeFiles/tuple_test.dir
 /home/clh/workspace/cppcode/test/build/CMakeFiles/vector_test.dir
 /home/clh/workspace/cppcode/test/build/CMakeFiles/template_test.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/function.dir
+/home/clh/workspace/cppcode/test/build/CMakeFiles/pointer_test.dir
 /home/clh/workspace/cppcode/test/build/CMakeFiles/edit_cache.dir
 /home/clh/workspace/cppcode/test/build/CMakeFiles/rebuild_cache.dir
